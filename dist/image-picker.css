@@ -1,0 +1,29 @@
+.image_picker_selector .group_title {
+    float: none; 	
+}
+.image_picker_selector .thumbnail {
+    padding: 6px;
+	opacity: .5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+}
+.image_picker_selector .thumbnail img {
+    -webkit-user-drag: none; 
+}
+.image_picker_selector .thumbnail.selected {
+    background: #dd2222;
+	opacity: 1;
+}
+
+.numbers {
+	font-size: 40px;
+	z-index: 100;
+	padding: 15px;
+	position: fixed;
+	background-color: #f4f4f4;	
+	-webkit-transition: color .5s ease-in-out;
+	-moz-transition: color .5s ease-in-out;
+	-o-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
